@@ -29,7 +29,11 @@ header {
 	justify-content: center;
 }
 
-#search-box{
+#searchBox {
+	width: 50%;
+	min-width: 300px;
+}
+/*#searchBox{
 	width: 50%;
 	min-width: 300px;
 	border: 1px solid #ebebeb;
@@ -39,12 +43,12 @@ header {
   font-size: 13px
 }
 
-#search-box:focus{
+#searchBox:focus{
 	border: 1px solid #1fa76f;
 	outline: none;
-}
+}*/
 
-.title {
+.main-title {
 	color: white;
 	font-size: 3rem;
 }
@@ -110,7 +114,7 @@ header {
 	justify-content: space-around;
 }
 
-.card {
+/*.card {
 	display: flex;
 	flex-direction: column;
 	border: 1px solid rgba(0, 0, 0, 0.125);
@@ -134,4 +138,10 @@ header {
 .card-information ul{
 	list-style: none;
 	font-size: 16px;
+}
+*/
+.containerBtn {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
 }
