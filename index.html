@@ -10,12 +10,15 @@
 		<header>
 			<h1 class="center title">The Rick and Morty</h1>
 			<div id="search">
-				<form action="">
-					<input id="search-box" type="text" placeholder="Buscar...">
+				<form action="" id="formSearch">
+					<input id="searchBox" type="text" placeholder="Buscar..." autocomplete="off">
 				</form>
 			</div>
 		</header>
 		<section class="container">
+			<div class="containerBtn">
+				<button id="btnReload" class="button is-success">Recargar</button>
+			</div>
 			<div class="loading-container hidden">
 				<div class="loading">
 					<div></div>
